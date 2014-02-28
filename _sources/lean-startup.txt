@@ -1,2 +1,11 @@
 Lean Startup
 ************
+
+Minimally Viable Product
+========================
+
+Pivot
+=====
+
+Continuous Deployment
+=====================
