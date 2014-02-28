@@ -1,0 +1,4 @@
+Lean
+****
+
+Systems thinking

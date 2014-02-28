@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Architecture &mdash; devops-notebook 0.0.1 documentation</title>
+    <title>Testing &mdash; devops-notebook 0.0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -24,8 +24,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="devops-notebook 0.0.1 documentation" href="index.html" />
-    <link rel="next" title="Testing" href="testing.html" />
-    <link rel="prev" title="Agile" href="agile.html" /> 
+    <link rel="prev" title="Architecture" href="architecture.html" /> 
   </head>
   <body>
     <div class="related">
@@ -35,10 +34,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="testing.html" title="Testing"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="agile.html" title="Agile"
+          <a href="architecture.html" title="Architecture"
              accesskey="P">previous</a> |</li>
         <li><a href="index.html">devops-notebook 0.0.1 documentation</a> &raquo;</li> 
       </ul>
@@ -49,30 +45,37 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="architecture">
-<h1>Architecture<a class="headerlink" href="#architecture" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="design-principles">
-<h2>Design Principles<a class="headerlink" href="#design-principles" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="solid">
-<h3>SOLID<a class="headerlink" href="#solid" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>Single Responsibility Principle (SRP)</li>
-<li>Open/Closed Principle (OCP)</li>
-<li>Liskov Substitution Principle (LSP)</li>
-<li>Interface Segregation Principle (ISP)</li>
-<li>Dependency Inversion Principle (DIP)</li>
-</ul>
+  <div class="section" id="testing">
+<h1>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="testing-strategy">
+<h2>Testing Strategy<a class="headerlink" href="#testing-strategy" title="Permalink to this headline">¶</a></h2>
+<p>Testing Pyramid</p>
 </div>
-<div class="section" id="miscellaneous">
-<h3>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h3>
-<p>Law of Demeter (fixed by &#8216;Tell, Don&#8217;t Ask&#8217;)</p>
-<p>CAP Theorem - Consistency, Availability, Partition…in a dis</p>
-<p>Postel&#8217;s Robustness Principle - A system should be strict about what it sends out, but be flexible about what it accepts</p>
-<p>End-to-End Principle - Error handling and ___ should be handled by the end nodes</p>
-<p>REST -</p>
-<p>Ports and Adapters - clean domain model, ports for things like databases, adapters for in between</p>
-<p>Software Craftsmanship -</p>
+<div class="section" id="types-of-tests">
+<h2>Types of Tests<a class="headerlink" href="#types-of-tests" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="unit-testing">
+<h3>Unit Testing<a class="headerlink" href="#unit-testing" title="Permalink to this headline">¶</a></h3>
 </div>
+<div class="section" id="integration-testing">
+<h3>Integration Testing<a class="headerlink" href="#integration-testing" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="acceptance-testing">
+<h3>Acceptance Testing<a class="headerlink" href="#acceptance-testing" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="performance-testing">
+<h3>Performance Testing<a class="headerlink" href="#performance-testing" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="security-testing">
+<h3>Security Testing<a class="headerlink" href="#security-testing" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="test-driven-development">
+<h2>Test Driven Development<a class="headerlink" href="#test-driven-development" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="behavior-driven-development">
+<h2>Behavior Driven Development<a class="headerlink" href="#behavior-driven-development" title="Permalink to this headline">¶</a></h2>
+<p>Also known as:
+- Specification by Example</p>
 </div>
 </div>
 
@@ -84,25 +87,28 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Architecture</a><ul>
-<li><a class="reference internal" href="#design-principles">Design Principles</a><ul>
-<li><a class="reference internal" href="#solid">SOLID</a></li>
-<li><a class="reference internal" href="#miscellaneous">Miscellaneous</a></li>
+<li><a class="reference internal" href="#">Testing</a><ul>
+<li><a class="reference internal" href="#testing-strategy">Testing Strategy</a></li>
+<li><a class="reference internal" href="#types-of-tests">Types of Tests</a><ul>
+<li><a class="reference internal" href="#unit-testing">Unit Testing</a></li>
+<li><a class="reference internal" href="#integration-testing">Integration Testing</a></li>
+<li><a class="reference internal" href="#acceptance-testing">Acceptance Testing</a></li>
+<li><a class="reference internal" href="#performance-testing">Performance Testing</a></li>
+<li><a class="reference internal" href="#security-testing">Security Testing</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#test-driven-development">Test Driven Development</a></li>
+<li><a class="reference internal" href="#behavior-driven-development">Behavior Driven Development</a></li>
 </ul>
 </li>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="agile.html"
-                        title="previous chapter">Agile</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="testing.html"
-                        title="next chapter">Testing</a></p>
+  <p class="topless"><a href="architecture.html"
+                        title="previous chapter">Architecture</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
-    <li><a href="_sources/architecture.txt"
+    <li><a href="_sources/testing.txt"
            rel="nofollow">Show Source</a></li>
   </ul>
 <div id="searchbox" style="display: none">
@@ -129,10 +135,7 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="testing.html" title="Testing"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="agile.html" title="Agile"
+          <a href="architecture.html" title="Architecture"
              >previous</a> |</li>
         <li><a href="index.html">devops-notebook 0.0.1 documentation</a> &raquo;</li> 
       </ul>

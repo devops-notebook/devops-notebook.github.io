@@ -11,8 +11,17 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   introduction
+   lean
+   kanban
+   agile
+   lean-startup
+   devops
+   organizations
    continuous-delivery
+   continuous-integration
    architecture
+   testing
 
 
 
