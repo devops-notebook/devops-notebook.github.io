@@ -20,8 +20,8 @@ Acrynym that stands for:
 * Measurement
 * Sharing
 
-The 3 ways
-==========
+The Three Ways
+==============
 
 Related Concepts
 ================

@@ -7,6 +7,7 @@ Core Principles
 ===============
 
 - Systems thinking
+- Pull System
 
 Toyota Manufacturing
 ====================
