@@ -12,17 +12,17 @@ Contents:
    :maxdepth: 2
 
    introduction
+   devops
    lean
+   continuous-delivery
    kanban
    agile
    lean-startup
-   devops
    organizations
-   continuous-delivery
    continuous-integration
    architecture
    testing
-
+   references
 
 
 Indices and tables

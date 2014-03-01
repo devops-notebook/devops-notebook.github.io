@@ -44,8 +44,8 @@
 
   
     <link rel="top" title="devops-notebook 0.0.1 documentation" href="index.html"/>
-        <link rel="next" title="Continuous Integration" href="continuous-integration.html"/>
-        <link rel="prev" title="Organizations" href="organizations.html"/> 
+        <link rel="next" title="Kanban" href="kanban.html"/>
+        <link rel="prev" title="Lean" href="lean.html"/> 
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
@@ -70,8 +70,30 @@
         
         
             <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lean.html">Lean</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#why">Why?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#miscellaneous-to-be-re-categorized">Miscellaneous (to be re-categorized)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="devops.html">DevOps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="devops.html#summary">Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="devops.html#history">History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="devops.html#calms">CALMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="devops.html#the-3-ways">The 3 ways</a></li>
+<li class="toctree-l2"><a class="reference internal" href="devops.html#related-concepts">Related Concepts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lean.html">Lean</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lean.html#core-principles">Core Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lean.html#toyota-manufacturing">Toyota Manufacturing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lean.html#lean-software-development">Lean Software Development</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Continuous Delivery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#foundations">Foundations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-deployment-pipeline">The Deployment Pipeline</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="kanban.html">Kanban</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="kanban.html#further-reading">Further Reading</a></li>
 </ul>
@@ -90,21 +112,12 @@
 <li class="toctree-l2"><a class="reference internal" href="lean-startup.html#continuous-deployment">Continuous Deployment</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="devops.html">DevOps</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="devops.html#summary">Summary</a></li>
-<li class="toctree-l2"><a class="reference internal" href="devops.html#history">History</a></li>
-<li class="toctree-l2"><a class="reference internal" href="devops.html#calms">CALMS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="devops.html#the-3-ways">The 3 ways</a></li>
-<li class="toctree-l2"><a class="reference internal" href="devops.html#related-concepts">Related Concepts</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="organizations.html">Organizations</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="organizations.html#organizational-concepts">Organizational Concepts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="organizations.html#organizational-change-management">Organizational Change Management</a></li>
 <li class="toctree-l2"><a class="reference internal" href="organizations.html#further-reading">Further Reading</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Continuous Delivery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="architecture.html">Architecture</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="architecture.html#design-principles">Design Principles</a></li>
@@ -115,6 +128,12 @@
 <li class="toctree-l2"><a class="reference internal" href="testing.html#types-of-tests">Types of Tests</a></li>
 <li class="toctree-l2"><a class="reference internal" href="testing.html#test-driven-development">Test Driven Development</a></li>
 <li class="toctree-l2"><a class="reference internal" href="testing.html#behavior-driven-development">Behavior Driven Development</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="references.html#books">Books</a></li>
+<li class="toctree-l2"><a class="reference internal" href="references.html#articles">Articles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="references.html#blogs">Blogs</a></li>
 </ul>
 </li>
 </ul>
@@ -146,15 +165,59 @@
           
   <div class="section" id="continuous-delivery">
 <h1>Continuous Delivery<a class="headerlink" href="#continuous-delivery" title="Permalink to this headline">¶</a></h1>
-<p>Anti-patterns</p>
-<p>Principles</p>
-<p>Agile</p>
-<p>Testing</p>
+<p>The section follows the outline of the book Continuous Delivery</p>
+<div class="section" id="foundations">
+<h2>Foundations<a class="headerlink" href="#foundations" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="anti-patterns">
+<h3>Anti-patterns<a class="headerlink" href="#anti-patterns" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Deploying software manually</li>
+<li>Deploying to a Production-like Environment Only after Development Is Complete</li>
+<li>Manual Configuration Management of Production Environments</li>
+</ul>
+</div>
+<div class="section" id="benefits-of-continuous-delivery">
+<h3>Benefits of Continuous Delivery<a class="headerlink" href="#benefits-of-continuous-delivery" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Empowering Teams - The pipeline is a pull system, allowing testers, operations, support to self-service the version of the app</li>
+<li>Reducing Errors - use configuration management to store everything</li>
+<li>Lowering Stress -</li>
+<li>Deployment Flexibility - deploy to new environments quickly</li>
+<li>Practice Makes Perfect -</li>
+</ul>
+</div>
+<div class="section" id="principles-of-software-delivery">
+<h3>Principles of Software Delivery<a class="headerlink" href="#principles-of-software-delivery" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Create a Repeatable, Reliable Process for Releasing Software</li>
+<li>Automate Almost Everything</li>
+<li>Keep Everything in Version Control</li>
+<li>If It Hurts, Do It More Frequently, and Bring the Pain Forward</li>
+<li>Build Quality In</li>
+<li>Done Means Released</li>
+<li>Everybody is Responsible for the Delivery Process</li>
+<li>Continuous Improvement</li>
+</ul>
+</div>
+<div class="section" id="configuration-management">
+<h3>Configuration Management<a class="headerlink" href="#configuration-management" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="continuous-integration">
+<h3>Continuous Integration<a class="headerlink" href="#continuous-integration" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="testing">
+<h3>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="the-deployment-pipeline">
+<h2>The Deployment Pipeline<a class="headerlink" href="#the-deployment-pipeline" title="Permalink to this headline">¶</a></h2>
 <p>Deployment Pipelines</p>
 <p>Deployment Automation</p>
 <p>Server Configuration Management</p>
 <p>Database Management</p>
 <p>Continuous Deployment</p>
+<p>The Delivery Ecosystem</p>
+</div>
 </div>
 
 
@@ -162,10 +225,10 @@
   
     <div class="rst-footer-buttons">
       
-        <a href="continuous-integration.html" class="btn btn-neutral float-right" title="Continuous Integration"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="kanban.html" class="btn btn-neutral float-right" title="Kanban"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="organizations.html" class="btn btn-neutral" title="Organizations"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="lean.html" class="btn btn-neutral" title="Lean"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
