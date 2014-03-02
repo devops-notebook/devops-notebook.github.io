@@ -30,5 +30,8 @@ Test Driven Development
 Behavior Driven Development
 ===========================
 
-Also known as:
-- Specification by Example
+
+Also see Specification by Example
+
+Specification by Example
+========================

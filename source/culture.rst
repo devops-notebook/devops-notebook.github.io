@@ -1,12 +1,13 @@
-Organizations
-*************
+Culture
+*******
 
-Organizational Concepts
-===================
+Concepts
+========
 - Conway's Law
 - Cognitive Bias (move somewhere else)
 - Functional Silos
 - Cargo cults
+- Parkinson's Law
 
 Organizational Change Management
 ================================

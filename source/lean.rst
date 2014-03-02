@@ -9,7 +9,7 @@ Core Principles
 - Systems thinking
 - Pull System
 
-Toyota Manufacturing
+Toyoda Manufacturing
 ====================
 
 Lean Software Development

@@ -20,8 +20,32 @@ Acrynym that stands for:
 * Measurement
 * Sharing
 
+Culture
+-------
+
+Automation
+----------
+
+Lean
+----
+
+Measurement
+-----------
+
+Sharing
+-------
+
 The Three Ways
 ==============
+
+The First Way
+-------------
+
+The Second Way
+--------------
+
+The Third Way
+-------------
 
 Related Concepts
 ================

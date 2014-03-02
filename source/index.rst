@@ -18,7 +18,7 @@ Contents:
    kanban
    agile
    lean-startup
-   organizations
+   culture
    continuous-integration
    architecture
    testing
