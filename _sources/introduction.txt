@@ -6,13 +6,13 @@ Welcome to the DevOps Notebook.  This is a project to collect and curate informa
 This is a living document, that will constantly be updated as new information is uncovered and curated.  
 
 DevOps Overview
----------------
+===============
 Coming soon...
 
 The intent here is to provide a visual representation of all the various topics and how they relate to each other.
 
 About this Site
-**************
+===============
 
 Curating Content
 ----------------

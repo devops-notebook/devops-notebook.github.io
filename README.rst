@@ -29,4 +29,7 @@ If you are interested in contributing content, follow these steps:
 
 1. Fork this repository
 2. Create a feature branch
-3. Submit a pull request
+3. Update the .rst file
+4. Run 'make html'
+5. Commit all changes to Github
+6. Submit a pull request
