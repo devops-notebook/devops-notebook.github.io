@@ -8,6 +8,8 @@ Core Principles
 
 - Systems thinking
 - Pull System
+- Plan Do Check Act (PDCA)
+- Deming
 
 Toyoda Manufacturing
 ====================

@@ -12,10 +12,24 @@ SOLID
 - Interface Segregation Principle (ISP)
 - Dependency Inversion Principle (DIP)
 
+Principles of Evolutionary Architecture
+---------------------------------------
+- Last Responsible Moment (ref)
+- Architect for Evolvabilty
+- Postel's Law
+- Architect for Testability
+- Conway's Law (ref)
+
+
+
+
 Miscellaneous
 -------------
 
 Law of Demeter (fixed by 'Tell, Don't Ask')
+
+
+
 
 CAP Theorem - Consistency, Availability, Partition…in a dis
 
