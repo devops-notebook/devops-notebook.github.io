@@ -8,6 +8,8 @@ Summary
 History
 =======
 
+* 10 deploys a day
+* Agile Sysadmin movement
 
 CALMS
 =====
